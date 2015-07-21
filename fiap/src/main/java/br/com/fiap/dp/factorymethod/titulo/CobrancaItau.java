@@ -1,10 +1,8 @@
-package br.com.fiap.dp.factorymethod.titulo ;
+package br.com.fiap.dp.factorymethod.titulo;
 
-public class CobrancaItau extends Cobranca
-{
+public class CobrancaItau extends Cobranca {
 
-	TituloPagamento criarTituloPagamento( )
-	{
-		return new TituloPagamentoItau( "123456789" ) ;
+	TituloPagamento criarTituloPagamento() {
+		return new TituloPagamentoItau("123456789");
 	}
 }

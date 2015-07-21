@@ -1,20 +1,17 @@
-package br.com.fiap.dp.factorymethod.titulo ;
+package br.com.fiap.dp.factorymethod.titulo;
 
-public abstract class Cobranca
-{
+public abstract class Cobranca {
 
-	private TituloPagamento tituloPagamento ;
+	private TituloPagamento tituloPagamento;
 
-	abstract TituloPagamento criarTituloPagamento( ) ; // factory method
+	abstract TituloPagamento criarTituloPagamento(); // factory method
 
-	public void criarTitulo( )
-	{
-		this.tituloPagamento = this.criarTituloPagamento( ) ;
+	public void criarTitulo() {
+		this.tituloPagamento = this.criarTituloPagamento();
 	}
 
-	public String obterCodigoBarras( )
-	{
-		return this.tituloPagamento.getCodigoBarras( ) ;
+	public String obterCodigoBarras() {
+		return this.tituloPagamento.getCodigoBarras();
 	}
 
 }

@@ -1,18 +1,15 @@
-package br.com.fiap.dp.factorymethod.titulo ;
+package br.com.fiap.dp.factorymethod.titulo;
 
-public class TituloPagamentoBradesco implements TituloPagamento
-{
+public class TituloPagamentoBradesco implements TituloPagamento {
 
-	private String codigoBarras ;
+	private String codigoBarras;
 
-	public TituloPagamentoBradesco( String codigoBarras )
-	{
-		this.codigoBarras = codigoBarras ;
+	public TituloPagamentoBradesco(String codigoBarras) {
+		this.codigoBarras = codigoBarras;
 	}
 
-	public String getCodigoBarras( )
-	{
-		return codigoBarras ;
+	public String getCodigoBarras() {
+		return codigoBarras;
 	}
 
 }

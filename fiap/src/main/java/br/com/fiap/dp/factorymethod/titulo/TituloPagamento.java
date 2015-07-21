@@ -1,8 +1,7 @@
-package br.com.fiap.dp.factorymethod.titulo ;
+package br.com.fiap.dp.factorymethod.titulo;
 
-interface TituloPagamento
-{
+interface TituloPagamento {
 
-	String getCodigoBarras( ) ;
+	String getCodigoBarras();
 
 }
