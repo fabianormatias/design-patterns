@@ -1,0 +1,14 @@
+package br.com.fiap.dp.proxy.rmi;
+
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.util.List;
+
+public interface Carrinho extends Remote {
+
+	void cadastrarItem(Item item) throws RemoteException;
+
+	List<Item> obterItens() throws RemoteException;
+
+	int obterQuantidadeItens() throws RemoteException;
+}
