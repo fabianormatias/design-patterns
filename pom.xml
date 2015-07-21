@@ -4,4 +4,10 @@
   <artifactId>design-patterns</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <modules>
+  	<module>globalcode</module>
+  	<module>gof</module>
+  	<module>k19</module>
+  	<module>argonavis</module>
+  </modules>
 </project>
