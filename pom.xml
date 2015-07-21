@@ -9,5 +9,7 @@
   	<module>gof</module>
   	<module>k19</module>
   	<module>argonavis</module>
+  	<module>casa-codigo</module>
+  	<module>fiap</module>
   </modules>
 </project>

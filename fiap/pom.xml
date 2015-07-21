@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>br.com.waiso.design.patterns</groupId>
+		<artifactId>design-patterns</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<groupId>br.com.waiso.design.patterns.fiap</groupId>
+	<artifactId>fiap</artifactId>
+	<dependencies>
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>1.2.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-xstream</artifactId>
+			<version>2.15.2</version>
+		</dependency>
+	</dependencies>
+</project>
