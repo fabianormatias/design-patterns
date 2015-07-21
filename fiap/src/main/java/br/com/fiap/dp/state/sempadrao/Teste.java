@@ -1,13 +1,15 @@
 package br.com.fiap.dp.state.sempadrao;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Teste {
+	
 	public static void main(String[] args) {
 		Ventilador ventilador = new Ventilador();
-		for (byte contador = 0; contador <=3; contador++) {
-			System.out.print("Pressione o bot�o controle [0-3]: ");
+		for (byte contador = 0; contador <= 3; contador++) {
+			System.out.print("Pressione o botão controle [0-3]: ");
 			getLine();
 			ventilador.ligar();
 		}

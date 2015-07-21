@@ -1,6 +1,7 @@
 package br.com.fiap.dp.state.sempadrao;
 
 class Ventilador {
+	
 	private int estado;
 
 	public Ventilador() {
