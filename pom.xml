@@ -11,5 +11,9 @@
   	<module>argonavis</module>
   	<module>casa-codigo</module>
   	<module>fiap</module>
+  	<module>algaworks</module>
+  	<module>alura</module>
+  	<module>thread-safe</module>
+  	<module>outros</module>
   </modules>
 </project>
