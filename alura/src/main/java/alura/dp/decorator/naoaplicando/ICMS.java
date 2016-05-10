@@ -1,4 +1,4 @@
-package alura.dp.decorate.naoaplicando;
+package alura.dp.decorator.naoaplicando;
 
 public class ICMS implements Imposto {
 	
