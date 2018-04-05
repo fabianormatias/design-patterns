@@ -2,11 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>br.com.waiso.design.patterns</groupId>
+		<groupId>es.dogood.design.patterns</groupId>
 		<artifactId>design-patterns</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>br.com.waiso.design.patterns.fiap</groupId>
+	<groupId>es.dogood.design.patterns.fiap</groupId>
 	<artifactId>fiap</artifactId>
 	<dependencies>
 		<dependency>

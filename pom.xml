@@ -1,19 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>br.com.waiso.design.patterns</groupId>
+  <groupId>es.dogood.design.patterns</groupId>
   <artifactId>design-patterns</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-  	<module>globalcode</module>
-  	<module>gof</module>
-  	<module>k19</module>
-  	<module>argonavis</module>
-  	<module>casa-codigo</module>
-  	<module>fiap</module>
-  	<module>algaworks</module>
+    <module>algaworks</module>
   	<module>alura</module>
-  	<module>thread-safe</module>
+    <module>dogood</module>
+  	<module>fiap</module>
   	<module>outros</module>
   </modules>
 </project>
