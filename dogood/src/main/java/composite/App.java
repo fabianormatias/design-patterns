@@ -27,10 +27,13 @@ public class App {
                 String desCategoria = replaceSpecialChars(word[7]);
 
                 IComposite categoria = new Categoria(desCategoria, codCategoria);
+
                 IComposite grupo = new Grupo(desGrupo, codGrupo);
                 grupo.add(categoria);
+
                 IComposite setor = new Setor(desSetor, codSetor);
                 setor.add(grupo);
+
                 IComposite departamento = new Departamento(desDepartamento, codDepartamento);
                 departamento.add(setor);
 

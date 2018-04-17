@@ -5,10 +5,12 @@ public class Categoria implements IComposite {
     private String descricao;
     private int codigo;
 
-    public Categoria(String descricao, int codigo){
+    public Categoria(String descricao, int codigo) {
         this.descricao = descricao;
         this.codigo = codigo;
     }
+
+    public Categoria() { }
 
     public void add(IComposite composite) {
     }

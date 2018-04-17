@@ -15,6 +15,8 @@ public class Grupo implements IComposite {
         this.codigo = codigo;
     }
 
+    public Grupo(){}
+
     public void add(IComposite composite) {
         categorias.add(composite);
     }

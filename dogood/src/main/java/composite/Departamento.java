@@ -10,6 +10,8 @@ public class Departamento implements IComposite {
 
     private List<IComposite> setores = new ArrayList();
 
+    public Departamento(){}
+
     public Departamento(String descricao, int codigo){
         this.descricao = descricao;
         this.codigo = codigo;

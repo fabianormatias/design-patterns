@@ -15,6 +15,9 @@ public class Setor implements IComposite {
         this.codigo = codigo;
     }
 
+    public Setor(){
+    }
+
     public void add(IComposite composite) {
         grupos.add(composite);
     }
